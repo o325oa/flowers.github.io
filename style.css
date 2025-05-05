@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero section */
 .hero {
     height: 100vh;
-    background: url('../images/flowers55.jpg') no-repeat center center/cover;
+    background: url('images/flowers55.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     position: relative;
