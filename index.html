@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветочная радость - магазин цветов в Коврове</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Цветочная радость">
+                    <span>Цветочная радость</span>
+                </div>
+                <nav class="nav">
+                    <a href="#main" class="nav-link">Главная</a>
+                    <a href="#about" class="nav-link">О нас</a>
+                    <a href="#products" class="nav-link">Букеты</a>
+                    <a href="#reviews" class="nav-link">Отзывы</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="main" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Свежие цветы в Коврове</h1>
+                <p class="hero-text">Дарите радость с нашими неповторимыми букетами</p>
+                <button class="btn hero-btn open-modal">Заказать букет</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">О нашем магазине</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Мы - цветочный магазин "Цветочная радость", работаем в Коврове с 2010 года. Наша миссия - дарить людям радость и эмоции через прекрасные цветы.</p>
+                    <p>Наши флористы с многолетним опытом создают уникальные композиции для любого повода: свадьбы, дни рождения, юбилеи или просто без повода.</p>
+                    <p>Мы используем только свежие цветы от проверенных поставщиков и гарантируем их качество.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/flowers1.jpg" alt="Цветы в нашем магазине">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products section">
+        <div class="container">
+            <h2 class="section-title">Наши букеты</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flowers2.jpg" alt="Букет Романтика">
+                        <div class="product-overlay">
+                            <button class="btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                    <h3>Романтика</h3>
+                    <p>Нежные розы и пионы</p>
+                    <span class="price">2 500 руб.</span>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flowers3.jpg" alt="Букет Элегантность">
+                        <div class="product-overlay">
+                            <button class="btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                    <h3>Элегантность</h3>
+                    <p>Орхидеи и лилии</p>
+                    <span class="price">3 200 руб.</span>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flowers4.jpg" alt="Букет Весна">
+                        <div class="product-overlay">
+                            <button class="btn open-modal">Заказать</button>
+                        </div>
+                    </div>
+                    <h3>Весна</h3>
+                    <p>Тюльпаны и гиацинты</p>
+                    <span class="price">1 800 руб.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews section">
+        <div class="container">
+            <h2 class="section-title">Отзывы наших клиентов</h2>
+            <div class="reviews-slider">
+                <div class="review">
+                    <div class="review-content">
+                        <p>"Заказывала букет на юбилей мамы. Остались довольны все! Цветы свежие, красиво упакованы, доставили вовремя. Спасибо!"</p>
+                        <div class="review-author">
+                            <span>Анна</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="review-content">
+                        <p>"Регулярно заказываю цветы у вас. Всегда отличное качество и сервис. Особенно нравятся сезонные букеты."</p>
+                        <div class="review-author">
+                            <span>Сергей</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="review-content">
+                        <p>"Сделали прекрасный свадебный букет по моим эскизам. Все точно как я хотела! Цветы стояли больше недели."</p>
+                        <div class="review-author">
+                            <span>Ольга</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts section">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-content">
+                <div class="contacts-info">
+                    <h3>Наши контакты</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Ковров, ул. Цветочная, 15</p>
+                    <p><i class="fas fa-phone"></i> +7 (55555) 5-55-55</p>
+                    <p><i class="fas fa-envelope"></i> info@flower-kovrov.ru</p>
+                    <p><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 20:00<br>Сб-Вс: 10:00 - 18:00</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contacts-map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4a1c8e9f3e5b5e5e5e5e5e5e5e5e5e5e5e5&amp;source=constructor" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Цветочная радость">
+                    <span>Цветочная радость</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#main">Главная</a>
+                    <a href="#about">О нас</a>
+                    <a href="#products">Букеты</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2025 Цветочная радость. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Заказать букет</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Ваш email">
+                </div>
+                <div class="form-group">
+                    <select>
+                        <option value="" disabled selected>Выберите букет</option>
+                        <option value="Романтика">Романтика - 2 500 руб.</option>
+                        <option value="Элегантность">Элегантность - 3 200 руб.</option>
+                        <option value="Весна">Весна - 1 800 руб.</option>
+                        <option value="Другой">Другой (уточним по телефону)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Ваши пожелания"></textarea>
+                </div>
+                <button type="submit" class="btn">Отправить заказ</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
